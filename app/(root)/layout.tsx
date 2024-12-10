@@ -63,8 +63,8 @@ export default function Layout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={workSans.variable}>
-      <body className="bg-black text-white min-h-screen">
+    <html lang="en">
+      <body className={workSans.variable}>
         <Navbar />
         {children}
       </body>

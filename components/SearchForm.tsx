@@ -14,6 +14,7 @@ const SearchForm = ({ query }: { query?: string }) => {
         required
         autoComplete="off"
         autoFocus
+        type="text"
       />
       <div className="flex gap-2">
         {query && <SearchFormReset />}

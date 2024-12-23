@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import "@/global.css"; // Importing global CSS
 import { Metadata } from "next";
 import localFont from "next/font/local";
-
+import "easymde/dist/easymde.min.css";
 const workSans = localFont({
   src: [
     {

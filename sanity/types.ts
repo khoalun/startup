@@ -131,7 +131,7 @@ export type Startup = {
   _createdAt: string;
   _updatedAt: string;
   _rev: string;
-  title?: string;
+  tittle?: string;
   slug?: Slug;
   author?: {
     _ref: string;
@@ -167,19 +167,5 @@ export type Author = {
 
 export type Markdown = string;
 
-export type AllSanitySchemaTypes =
-  | SanityImagePaletteSwatch
-  | SanityImagePalette
-  | SanityImageDimensions
-  | SanityImageHotspot
-  | SanityImageCrop
-  | SanityFileAsset
-  | SanityImageAsset
-  | SanityImageMetadata
-  | Geopoint
-  | SanityAssetSourceData
-  | Startup
-  | Slug
-  | Author
-  | Markdown;
+export type AllSanitySchemaTypes = SanityImagePaletteSwatch | SanityImagePalette | SanityImageDimensions | SanityImageHotspot | SanityImageCrop | SanityFileAsset | SanityImageAsset | SanityImageMetadata | Geopoint | SanityAssetSourceData | Startup | Slug | Author | Markdown;
 export declare const internalGroqTypeReferenceTo: unique symbol;
